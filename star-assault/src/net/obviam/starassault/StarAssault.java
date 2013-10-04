@@ -5,6 +5,11 @@ import net.obviam.starassault.screens.GameScreen;
 
 public class StarAssault extends Game
 {
+    public StarAssault()
+    {
+
+    }
+
 	@Override
 	public void create()
     {
