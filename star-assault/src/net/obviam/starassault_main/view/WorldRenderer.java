@@ -1,12 +1,12 @@
-package net.obviam.starassault.view;
+package net.obviam.starassault_main.view;
 
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
 import com.badlogic.gdx.math.Rectangle;
-import net.obviam.starassault.model.Block;
-import net.obviam.starassault.model.Player;
-import net.obviam.starassault.model.World;
+import net.obviam.starassault_main.model.Block;
+import net.obviam.starassault_main.model.Player;
+import net.obviam.starassault_main.model.World;
 
 /**
  * Created by: berickson926

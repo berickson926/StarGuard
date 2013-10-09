@@ -1,15 +1,10 @@
-package net.obviam.starassault;
+package net.obviam.starassault_main;
 
 import com.badlogic.gdx.Game;
-import net.obviam.starassault.screens.GameScreen;
+import net.obviam.starassault_main.screens.GameScreen;
 
 public class StarAssault extends Game
 {
-    public StarAssault()
-    {
-
-    }
-
 	@Override
 	public void create()
     {
