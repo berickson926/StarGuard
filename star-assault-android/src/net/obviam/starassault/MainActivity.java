@@ -53,7 +53,7 @@ public class MainActivity extends AndroidApplication
         //topSection.addView(view);
 
         //original full screen approach
-        game = new StarAssaultAlternate();
+        game = new StarAssault();
         initialize(game, cfg);
 
         //Test for multiple initialize calls!

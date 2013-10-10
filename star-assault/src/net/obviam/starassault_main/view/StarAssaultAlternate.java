@@ -31,9 +31,9 @@ public class StarAssaultAlternate implements ApplicationListener
         Gdx.gl.glClearColor(1, 1, 1, 1);
         Gdx.gl.glClear(GL10.GL_COLOR_BUFFER_BIT);
 
-        batch.begin();
-        font.draw(batch, "Hello World", 200, 200);
-        batch.end();
+//        batch.begin(); //todo: still not entirely sure why this creates an exception frequently, but not every time. Leaving disabled for now.
+//        font.draw(batch, "Hello World", 200, 200);
+//        batch.end();
     }
 
     @Override
