@@ -58,49 +58,49 @@ public class MainActivity extends AndroidApplication
 
         //Test for multiple initialize calls!
 
-        Log.d("StarGuardActivity", "About to call start task schedulerer!");
-        scheduler.scheduleAtFixedRate(
-                new Runnable()
-                {
-                    @Override
-                    public void run()
-                    {
-                        Log.d("StarGuardActivity", "Running multiple initialization task!");
-
-                            myHandler.post(new Runnable()
-                            {
-                                @Override
-                                public void run()
-                                {
-                                    try
-                                    {
-                                        if(flag)
-                                        {
-                                            //game.dispose();
-                                            game = new StarAssaultAlternate();
-                                            Log.d("StarGuardActivity", "Initializing StarGuard Alternate");
-                                            initialize(game, cfg);
-                                            flag = false;
-                                        }
-                                        else
-                                        {
-                                            //game.dispose();
-                                            game = new StarAssault();
-                                            Log.d("StarGuardActivity", "Initializing StarGuard original");
-                                            flag = true;
-                                            initialize(game, cfg);
-                                        }
-                                }
-                                catch (Exception e)
-                                {
-                                    Log.e("StarGuardActivity", e.toString());
-                                }
-                                }
-                            });
-
-                        Log.d("StarGuardActivity", "Finished multiple initialization task!");
-                    }
-                }, 5, 10, TimeUnit.SECONDS);
+//        Log.d("StarGuardActivity", "About to call start task schedulerer!");
+//        scheduler.scheduleAtFixedRate(
+//                new Runnable()
+//                {
+//                    @Override
+//                    public void run()
+//                    {
+//                        Log.d("StarGuardActivity", "Running multiple initialization task!");
+//
+//                            myHandler.post(new Runnable()
+//                            {
+//                                @Override
+//                                public void run()
+//                                {
+//                                    try
+//                                    {
+//                                        if(flag)
+//                                        {
+//                                            //game.dispose();
+//                                            game = new StarAssaultAlternate();
+//                                            Log.d("StarGuardActivity", "Initializing StarGuard Alternate");
+//                                            initialize(game, cfg);
+//                                            flag = false;
+//                                        }
+//                                        else
+//                                        {
+//                                            //game.dispose();
+//                                            game = new StarAssault();
+//                                            Log.d("StarGuardActivity", "Initializing StarGuard original");
+//                                            flag = true;
+//                                            initialize(game, cfg);
+//                                        }
+//                                }
+//                                catch (Exception e)
+//                                {
+//                                    Log.e("StarGuardActivity", e.toString());
+//                                }
+//                                }
+//                            });
+//
+//                        Log.d("StarGuardActivity", "Finished multiple initialization task!");
+//                    }
+//                }, 5, 10, TimeUnit.SECONDS);
 
         Log.d("StarGuardActivity", "Reached end of onCreate()");
     }
