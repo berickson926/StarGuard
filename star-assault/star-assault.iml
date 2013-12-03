@@ -12,12 +12,12 @@
     </content>
     <orderEntry type="jdk" jdkName="1.7" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" exported="" name="bodyeditor-loader-sources" level="project" />
-    <orderEntry type="library" exported="" name="bodyeditor-loader" level="project" />
-    <orderEntry type="library" exported="" name="gdx-sources" level="project" />
-    <orderEntry type="library" exported="" name="gdx" level="project" />
-    <orderEntry type="library" exported="" name="tween-engine-api-sources" level="project" />
-    <orderEntry type="library" exported="" name="tween-engine-api" level="project" />
+    <orderEntry type="library" name="bodyeditor-loader-sources" level="project" />
+    <orderEntry type="library" name="bodyeditor-loader" level="project" />
+    <orderEntry type="library" name="gdx-sources" level="project" />
+    <orderEntry type="library" name="gdx" level="project" />
+    <orderEntry type="library" name="tween-engine-api-sources" level="project" />
+    <orderEntry type="library" name="tween-engine-api" level="project" />
   </component>
 </module>
 

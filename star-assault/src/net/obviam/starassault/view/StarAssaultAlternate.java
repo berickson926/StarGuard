@@ -1,4 +1,4 @@
-package net.obviam.starassault_main.view;
+package net.obviam.starassault.view;
 
 import com.badlogic.gdx.ApplicationListener;
 import com.badlogic.gdx.Gdx;

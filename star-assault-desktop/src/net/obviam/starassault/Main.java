@@ -2,7 +2,6 @@ package net.obviam.starassault;
 
 import com.badlogic.gdx.backends.lwjgl.LwjglApplication;
 import com.badlogic.gdx.backends.lwjgl.LwjglApplicationConfiguration;
-import net.obviam.starassault_main.StarAssault;
 
 public class Main
 {

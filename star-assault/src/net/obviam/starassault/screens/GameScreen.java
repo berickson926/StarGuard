@@ -1,11 +1,10 @@
-package net.obviam.starassault_main.screens;
+package net.obviam.starassault.screens;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.graphics.GL10;
-import net.obviam.starassault_main.model.World;
-import net.obviam.starassault_main.view.WorldRenderer;
-import net.obviam.starassault_main.view.WorldRenderer;
+import net.obviam.starassault.model.World;
+import net.obviam.starassault.view.WorldRenderer;
 
 /**
  * Created by: berickson926
@@ -16,7 +15,7 @@ import net.obviam.starassault_main.view.WorldRenderer;
 public class GameScreen implements Screen
 {
     private World world; //Holds all the objects in the game world
-    private WorldRenderer renderer;//Draws all the objects in world to screen
+    private WorldRenderer renderer = new WorldRenderer(world);//Draws all the objects in world to screen
 
     @Override
     public void render(float delta)

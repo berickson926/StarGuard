@@ -7,15 +7,11 @@ import android.util.Log;
 import android.view.View;
 import android.widget.FrameLayout;
 import com.badlogic.gdx.ApplicationListener;
-import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.backends.android.AndroidApplication;
 import com.badlogic.gdx.backends.android.AndroidApplicationConfiguration;
-import net.obviam.starassault_main.StarAssault;
-import net.obviam.starassault_main.view.StarAssaultAlternate;
 
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
-import java.util.concurrent.TimeUnit;
 
 public class MainActivity extends AndroidApplication
 {
